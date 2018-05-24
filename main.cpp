@@ -71,22 +71,22 @@ int RST   = 0;
 sf_t sf = SF7;
 
 // Set center frequency
-uint32_t  freq = 868100000; // in Mhz! (868.1)
+uint32_t  freq = 865100000; // in Mhz! (865.1)
 
 // Set location
-float lat=0.0;
-float lon=0.0;
-int   alt=0;
+float lat=11.04513000;
+float lon=77.03559600;
+int   alt=407;
 
 /* Informal status fields */
 static char platform[24]    = "Single Channel Gateway";  /* platform definition */
-static char email[40]       = "";                        /* used for contact email */
-static char description[64] = "";                        /* used for free form description */
+static char email[40]       = "divyaprakash77@gmail.com";                        /* used for contact email */
+static char description[64] = "test_lora";                        /* used for free form description */
 
 // define servers
 // TODO: use host names and dns
 #define SERVER1 "54.72.145.119"    // The Things Network: croft.thethings.girovito.nl
-//#define SERVER2 "192.168.1.10"      // local
+//#define SERVER2 "192.168.1.5"      // local
 #define PORT 1700                   // The port on which to send data
 
 // #############################################
